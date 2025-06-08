@@ -1,9 +1,10 @@
 // pages/index.js
 import Head from 'next/head';
+import Layout from '@/components/layout';
 
 export default function Home() {
   return (
-    <>
+    <Layout>
       <Head>
         <title>FinTrack - Voice Powered Finance Tracker</title>
         <meta name="description" content="Track income and expenses using voice commands. Simple, powerful finance tracking." />
@@ -50,7 +51,7 @@ export default function Home() {
           </div>
           <div>
             <h3 className="font-bold text-xl mb-2">2. Speak or Type</h3>
-            <p>Say “Add ₹500 for groceries” or use the form</p>
+            <p>Say "Add ₹500 for groceries" or use the form</p>
           </div>
           <div>
             <h3 className="font-bold text-xl mb-2">3. Get Reports</h3>
@@ -73,6 +74,6 @@ export default function Home() {
         <p className="mb-1">&copy; 2025 FinTrack — Built with ❤️ using Next.js</p>
         <p className="text-sm">Track smarter. Speak smarter.</p>
       </footer>
-    </>
+    </Layout>
   );
 }
