@@ -12,7 +12,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-600 to-purple-700 text-white text-center py-20 px-6">
-        <h1 className="text-5xl font-bold mb-4">Track Your Finances — Hands-Free!</h1>
+        <h1 className="text-5xl font-bold mb-4">Frack Your Finances — Hands-Free!</h1>
         <p className="text-xl mb-6 max-w-2xl mx-auto">
           Introducing <strong className="underline text-yellow-300">voice-powered finance tracking</strong>.
           Just speak and your transactions are recorded!
